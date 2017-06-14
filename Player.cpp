@@ -56,4 +56,11 @@ int main() {
 	// printf a string. Must use string.c_str() function
 	string test = "This is a test";
 	printf("%s\n", test.c_str());
+
+	// == operator
+	int x = 10;
+	int y = 4;
+
+	cout << (x == y) << endl; // Prints 0 for false
+	cout << boolalpha << (x == y) << endl; // Prints 'false'
 }
