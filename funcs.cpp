@@ -4,6 +4,8 @@
 
 using namespace std;
 
+int superglobal = 444;
+
 void printItemChoices() {
 	cout << " ,------------------." << endl;
 	cout << " |                  |" << endl;
