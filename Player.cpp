@@ -63,4 +63,17 @@ int main() {
 
 	cout << (x == y) << endl; // Prints 0 for false
 	cout << boolalpha << (x == y) << endl; // Prints 'false'
+
+	cout << "Enter first number" << endl;
+	int num1, num2;
+	cin >> num1;
+	cout << "Enter second number" << endl;
+	cin >> num2;
+	cout << endl;
+
+	if (num1 > num2) {
+	cout << num1 << endl;
+	} else {
+	cout << num2 << endl;
+	}
 }
